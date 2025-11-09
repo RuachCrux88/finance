@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Category" ADD COLUMN     "description" TEXT,
+ADD COLUMN     "isSystem" BOOLEAN NOT NULL DEFAULT false,
+ADD COLUMN     "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
