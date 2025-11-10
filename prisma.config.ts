@@ -3,6 +3,7 @@ import { defineConfig } from "@prisma/config";
 import {undefined} from "effect/Match";
 
 export default defineConfig({
+  tables: undefined,
   schema: "prisma/schema.prisma",
 
   // Evita problemas de bloqueo en Windows
